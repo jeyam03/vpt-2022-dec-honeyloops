@@ -1,7 +1,8 @@
 import React, { useContext, useState } from "react";
 import Inputfield from "./TextInput";
 import { BiSearch } from "react-icons/bi";
-import { SearchContext } from "../pages/Landing";
+import { SearchContext } from "../App";
+
 
 const MainSection = () => {
   const [searchQuery, setSearchQuery] = useContext(SearchContext);
@@ -20,7 +21,7 @@ const MainSection = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className="bg-gradient-to-bl from-pruple-700 to-pruple-700 h-[400px] flex flex-col justify-center items-center px-8 py-8 lg:px-[calc(100vw/12)]"
+      className="bg-gradient-to-bl from-purple-700 to-purple-700 h-[400px] flex flex-col justify-center items-center px-8 py-8 lg:px-[calc(100vw/12)]"
     >
       <h2 className="text-white font-bold text-3xl">
         Search for the books you love 💗 !
@@ -34,7 +35,7 @@ const MainSection = () => {
           placeholder="Search by author, book, subject, etc."
           valueState={[localSearch, setLocalSearch]}
         />
-        <button onClick={handleSearch} className="bg-pruple-400 p-2 rounded-full text-white hover:bg-pruple-500">
+        <button onClick={handleSearch} className="bg-purple-400 p-2 rounded-full text-white hover:bg-purple-500">
           <BiSearch size={24} />
         </button>
       </div>

@@ -1,7 +1,8 @@
 import React, { useContext, useState } from "react";
 import Inputfield from "./TextInput";
 import { BiSearch } from "react-icons/bi";
-import { SearchContext } from "../pages/Landing";
+import { SearchContext } from "../App";
+
 
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useContext(SearchContext);
@@ -31,7 +32,7 @@ const Navbar = () => {
         />
         <button
           onClick={handleSearch}
-          className="bg-pruple-400 p-2 rounded-full"
+          className="bg-purple-400 p-2 rounded-full"
         >
           <BiSearch size={20} />
         </button>
