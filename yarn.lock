@@ -6286,7 +6286,7 @@ postcss-color-hex-alpha@^8.0.2:
 
 postcss-color-rebeccapurple@^7.0.2:
   version "7.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-color-rebeccapurple/-/postcss-color-rebeccapurple-7.0.2.tgz#5d397039424a58a9ca628762eb0b88a61a66e079"
+  resolved "https://registry.yarnpkg.com/postcss-color-rebeccapurple/-/postcss-color-rebeccapruple-7.0.2.tgz#5d397039424a58a9ca628762eb0b88a61a66e079"
   integrity sha512-SFc3MaocHaQ6k3oZaFwH8io6MdypkUtEy/eXzXEB1vEQlO3S3oDc/FSZA8AsS04Z25RirQhlDlHLh3dn7XewWw==
   dependencies:
     postcss-value-parser "^4.2.0"
