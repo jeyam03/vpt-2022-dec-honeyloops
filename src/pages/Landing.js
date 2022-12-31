@@ -29,26 +29,29 @@ const Landing = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center w-screen overflow-x-hidden min-h-screen bg-red-300 space-y-12">
+    <div className="flex flex-col justify-center items-center w-screen overflow-x-hidden min-h-screen bg-red-300 space-y-12 lg:px-[calc(100vw/12)]">
       <p className="text-5xl font-bold text-center py-6 px-12">Books Search</p>
-      <div className="flex flex-col lg:flex-row w-full px-6 lg:px-40 space-y-6 lg:space-y-0 lg:space-x-6 font-mono items-center">
+      <div className="flex flex-col lg:flex-row w-full px-6 lg:px-40 space-y-6 lg:space-y-0 lg:space-x-6 font-mono items-end">
         <Inputfield
           title="Search"
           placeholder="Search for authors"
           className="w-full"
           valueState={[search, setSearch]}
         />
+        <div className="flex w-1/2 items-center space-x-6">
+
         <button
-          className="rounded-full mt-8 h-1/2 bg-gray-300 p-1 hover:text-gray z-40"
+          className="rounded-full h-1/2 bg-gray-300 p-1 hover:text-gray z-40"
           onClick={clearSearch}
         >
           <IoCloseOutline />
         </button>
         <Button
           text="Search"
-          className="w-1/2"
+          className="flex-1"
           handleClick={handleSearch}
         />
+          </div>
       </div>
 
       {booksCount <= 0 ? (
@@ -61,7 +64,7 @@ const Landing = () => {
           <div className="mt-4">
             <p className="text-3xl font-semibold text-center mb-4">{search} Books</p>
             <p className="text-xl text-center">Books Found: {booksCount}</p>
-            <div className="flex flex-col lg:grid space-y-6 lg:space-y-0 lg:space-x-12 px-6 lg:px-36 py-6">
+            <div className="flex flex-col lg:grid space-y-4  px-6 lg:px-36 py-6">
               {books.map((book) => (
                 <div className="shadow-lg border-2 border-black rounded-xl px-12 py-6 space-y-2">
                   <p className="font-mono bg-slate-400 text-xl w-fit">Authors: {book.name}</p>
