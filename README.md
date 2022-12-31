@@ -3,6 +3,25 @@
 **Round 1** - Qualifier 
 **Date** - Dec-31-2022
 
+## Hosted Webpage 
+
+[Venmurasu - BooksHub](https://vpt-2023-cseg1.netlify.app/)
+
+## Demo
+
+![image](https://www.linkpicture.com/q/demo1.png)
+
+![image](https://www.linkpicture.com/q/demo2.png)
+
+
+## Team Members (CSE G1)
+* 20Z209 - Ashwin Kumar T G
+* 20Z222 - Jeyam Palaniaapn D
+* 20Z247 - Sashti Amar R A
+* 20Z256 - Suvan Sathyendira B
+
+
+
 ## Problem Statement
 Create a web application to search books using API from [OpenLibrary](https://openlibrary.org) using a programming language of your choice.
 The total duration will be 12hrs (8:00am - 8:00pm).
@@ -125,12 +144,5 @@ The output CSS is generated in the /src/styles folder, under the name 'tailwind.
 
 Developers can also run the tailwind watch (yarn run watch-tw)and react start (yarn start) scripts concurrently.
 
-## Hosted Webpage 
 
-[Venmurasu - BooksHub](https://vpt-2023-cseg1.netlify.app/)
-
-## Demo
-
-![image](https://www.linkpicture.com/q/demo1.png)
-
-![image](https://www.linkpicture.com/q/demo2.png)
+## 
