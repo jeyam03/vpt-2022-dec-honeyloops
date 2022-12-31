@@ -52,17 +52,17 @@ https://openlibrary.org/search.json?<query>
 
     https://openlibrary.org/search.json?q=birth_date:1973
 
-**Important Response Fields**
-    1. numFound - Total number of results
-    2. docs - Array of results
-    3. cover_i - Cover photo ID
-    4. title - Book title
-    5. author_name - Author name
-    6. first_publish_year - First published year
-    7. isbn - ISBN number
-    8. Publisher - Publisher name
-    9. Language Available - Array of languages available
-    10. Subject - Array of subjects
+**Important Response Fields**  
+    1. numFound - Total number of results  
+    2. docs - Array of results  
+    3. cover_i - Cover photo ID  
+    4. title - Book title  
+    5. author_name - Author name  
+    6. first_publish_year - First published year  
+    7. isbn - ISBN number  
+    8. Publisher - Publisher name  
+    9. Language Available - Array of languages available  
+    10. Subject - Array of subjects  
 
 #### Books API
 This API is used to fetch the details of a particular book. The book can be identified by ISBN, OLID, LCCN, OCLC, or Open Library ID.
@@ -86,13 +86,13 @@ Identifier and Value Samples
     
     https://covers.openlibrary.org/b/key/value-size.jpg
 
-**Some Important Response Fields**
-    1. title - Book title
-    2. subtitle - Book subtitle
-    3. description - Book description
-    4. number_of_pages - Number of pages
-    5. publish_date - Published date
-    6. publish_places - Published place
-    7. revision - Revision number
+**Some Important Response Fields**  
+    1. title - Book title  
+    2. subtitle - Book subtitle  
+    3. description - Book description  
+    4. number_of_pages - Number of pages  
+    5. publish_date - Published date  
+    6. publish_places - Published place  
+    7. revision - Revision number  
 
 
