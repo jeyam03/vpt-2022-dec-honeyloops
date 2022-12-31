@@ -15,6 +15,7 @@
 
 
 ## Team Members (CSE G1)
+* 20Z205 - Aditya Varma
 * 20Z209 - Ashwin Kumar T G
 * 20Z222 - Jeyam Palaniaapn D
 * 20Z247 - Sashti Amar R A
